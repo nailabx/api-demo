@@ -6,7 +6,7 @@ metadata:
   labels:
     app: nginx-app
 spec:
-  replicas: 2  # Number of Nginx instances to run
+  replicas: 1  # Number of Nginx instances to run
   selector:
     matchLabels:
       app: nginx-app
